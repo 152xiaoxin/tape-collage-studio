@@ -1,0 +1,13 @@
+interface:
+  display_name: 胶带拼贴工作室
+  short_description: 将照片和文字创意转成中文友好的高级和纸胶带拼贴成品
+  default_prompt: 使用 $tape-collage-studio 把这张照片做成适合小红书发布的胶带拼贴，不要文字。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
